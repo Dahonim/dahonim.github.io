@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Mon site personnel</title>
-        <link rel="stylesheet" href="styles.css"/> 
+        <link rel="stylesheet" href="style.css"/> 
     </head>
     <body>
       <section>
         <nav>
           <ul>
-            <li><a href="#" class="active">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
@@ -20,7 +20,9 @@
           <p>Salut,</p>
           <p>Je suis Nimrod LADJOUAN</p>
           <p>Etudiant à Epitech Benin</p>
-          <button class="down-cv">Download CV</button>
+          <form action="mon_cv.pdf" method="GET" target="_blank">
+            <button class="down-cv" type="submit">Download CV</button>
+          </form>
         </div>
       </section>
       <div class="about-container">
